@@ -1,0 +1,86 @@
+
+body {
+   
+}
+
+.btn-circle {
+	width: 12px;
+	height: 8px;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 12px;
+	line-height: 1.428571429;
+	border-radius: 10px;
+}
+
+#AddProcess-btn {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.bg-default{
+	margin-bottom: 0;
+}
+
+.input-group #search{
+	background-color :#EEEEEE!important;
+}
+
+#page-wrapper {
+	padding: 0 15px;
+}
+
+.container {
+     padding-right: 0; /*15px in bootstrap.css*/
+     
+     margin-right: 0;
+     margin-left: 100px;
+}
+
+.container-fluid {
+     padding:0;
+}
+
+.cursor{
+	cursor:pointer;
+}
+
+.borderless table {
+
+    border-left-style: none;
+    border-right-style: none;
+
+}
+
+
+.top-line, .buttom-line{
+	width: 100%;
+	text-align: right;
+}
+
+.top-line hr{
+	width: 200px;
+	display: inline-block;
+}
+
+.buttom-line hr{
+	width: 150px;
+	display: inline-block;
+}
+
+
+
+.vls{
+    
+     height: 25px;
+    position: absolute;
+   
+    margin-left: -3px;
+    top: 0;
+	
+	    border-left:  solid white;
+   
+   
+    text-align: right;
+    display: inline-block;
+}

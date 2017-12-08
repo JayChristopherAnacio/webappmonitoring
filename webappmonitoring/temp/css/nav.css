@@ -1,0 +1,56 @@
+.navbar-fixed-left {
+  width: 220px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 219px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 160px;
+}
+
+/* On using dropdown menu (To right shift popuped) */
+.navbar-fixed-left .navbar-nav > li > .dropdown-menu {
+  margin-top: -50px;
+  margin-left: 140px;
+}
+
+
+.navbar-inverse { 
+	background-color: #0E6D9B;
+}
+.navbar-inverse .nav>.active>a:hover,.navbar-inverse .nav>li>a:hover, .navbar-inverse .nav>li>a:focus { background-color: #5DBCD2}
+.navbar-inverse .nav>.active>a,.navbar-inverse .nav>.open>a,.navbar-inverse .nav>.open>a, .navbar-inverse .nav>.open>a:hover,.navbar-inverse .nav>.open>a, .navbar-inverse .nav>.open>a:hover, .navbar-inverse .nav>.open>a:focus { background-color: #5DBCD2}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #5DBCD2}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #FFFFFF}
+.navbar-inverse .navbar-brand { 
+	color: #FFFFFF; 
+	height:80px; 
+	text-align: center;
+	padding-top: 36px;
+	padding-left: 26px;
+
+}
+
+
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .nav>li>a { color: #FFFFFF}
+.navbar-inverse .nav>li>a:hover, .navbar-inverse .nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .nav>.active>a,.navbar-inverse .nav>.open>a, .navbar-inverse .nav>.open>a:hover, .navbar-inverse .nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .nav>.active>a:hover, .navbar-inverse .nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #000000}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .nav>.dropdown>a .caret { border-top-color: #FFFFFF}
+.navbar-inverse .nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .nav>.dropdown>a .caret { border-bottom-color: #FFFFFF}
+.navbar-inverse .nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+

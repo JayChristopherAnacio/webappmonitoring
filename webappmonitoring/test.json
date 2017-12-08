@@ -1,0 +1,25 @@
+{  
+   "status":"success",
+   "data":[  
+      {  
+         "id":1,
+         "name":"Websocket",
+         "url":"http:\/\/apius01.owtel.com\/deidara\/public_00443\/get_chat_undelivered.php",
+         "public_ip":"ws:\/\/54.70.160.229:443",
+         "status":0,
+         "start_time":null,
+         "end_time":"2017-11-23 09:15:27",
+         "log_description":"WebSocketSharp.CloseEventArgs"
+      },
+      {  
+         "id":1,
+         "name":"Websocket",
+         "url":"http:\/\/apius01.owtel.com\/deidara\/public_00443\/get_chat_undelivered.php",
+         "public_ip":"ws:\/\/54.70.160.229:443",
+         "status":0,
+         "start_time":null,
+         "end_time":"2017-11-23 09:15:29",
+         "log_description":"Error!! Could not connect to server: ws:\/\/54.70.160.229:443"
+      }
+   ]
+}

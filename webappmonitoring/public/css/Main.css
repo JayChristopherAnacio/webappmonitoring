@@ -1,0 +1,46 @@
+.form-control {
+    width: 100% !important;
+    background-color: #EEEEEE!important;
+    min-width: 240px;
+}
+.right-align {
+    text-align: right !important;
+}
+.btn-circle {
+    width: 12px;
+    height: 8px;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 10px;
+}
+.input-group #search {
+    background-color: #EEEEEE!important;
+}
+.cursor {
+    cursor: pointer;
+}
+.borderless table {
+    border-left-style: none;
+    border-right-style: none;
+}
+.top-line,
+.bottom-line {
+    width: 100%;
+    text-align: right;
+}
+.top-line hr {
+    width: 227px;
+    display: inline-block;
+}
+.bottom-line hr {
+    width: 190px;
+    display: inline-block;
+}
+.vertical-line {
+    height: 20px;
+    border-left: 1px solid white;
+    text-align: right;
+    display: inline-block;
+}

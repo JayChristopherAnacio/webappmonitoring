@@ -1,0 +1,44 @@
+.selectdiv {
+    position: relative;
+    /*Don't really need this just for demo styling*/
+}
+/*To remove button from IE11, thank you Matt */
+
+select::-ms-expand {
+    display: none;
+}
+.selectdiv:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #4286f4;
+    font-weight: bold;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 1px;
+    /*Adjust for position however you want*/
+    
+    top: 7px;
+    border-bottom: 1px solid #999;
+    /*left line */
+    
+    position: absolute;
+    pointer-events: none;
+}
+.selectdiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Add some styling */
+    
+    display: block;
+    width: 100%;
+    height: 34px;
+    text-align: left !important;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+}

@@ -1,0 +1,93 @@
+#process_tbl .table-head{
+
+	background-color: #0E6D9B;
+	
+	
+}
+
+.vertical-line
+{
+   border-left:1px solid white !important;
+   height:20px !important; 
+   padding-left: 15px !important; 
+   
+} 
+
+
+.table{
+	font-size : 12px;
+}
+
+.table-head>th{
+	 color: white;
+}
+
+#process_tbl .table-head>tr>th{
+	 height : 50px;
+	 text-align: left;
+	 vertical-align: middle;
+	 padding-left: 10px;
+}
+
+#process_tbl .table-head>tr>th>span>span.caret{
+	 margin-right: 15px;
+}
+
+#process_tbl tr{
+	 border-bottom:1pt solid #dddddd;
+}
+
+#process_tbl {
+	background-color: #F0F0F0 ;
+	margin-bottom: 0px;
+}
+
+
+th{
+  color: white;
+}
+
+tbody{
+	
+}
+#process_tbl {
+	background-color: #F0F0F0 ;
+}
+#logs td{
+	background-color: #EEEEEE !important;
+}
+
+#logs  td, #logs th {
+    border: none !important;
+}
+
+#logs tr{
+	
+	border-bottom: none;
+	border-bottom: none;
+}
+#logs{
+	margin-top: none;
+	padding-top : none;
+
+}
+.logsDate{
+	width : 50px !important;
+	text-align : right ;
+	margin-right : 10px;
+}
+.logsDescription{
+	width : 250px;
+	text-align : left;
+
+}
+
+#logs .table-head{
+
+	background-color: #EEEEEE;
+	
+}
+
+.selected{
+	background-color : #e1ffba !important;
+}
